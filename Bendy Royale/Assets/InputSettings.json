@@ -1,0 +1,73 @@
+{ 
+inputSystem: "",
+
+players: [
+
+     		//Player 1
+			{
+				Buttons: [
+							{
+								buttonName: "Horizontal",
+								input: "D",
+								negativeInput: "A",
+								axisTarget: "Gamepad_1 Axis 0",
+							}
+							{
+								buttonName: "Vertical",
+								input: "W",
+								negativeInput: "S",
+								axisTarget: "Gamepad_1 Axis 1",
+							}
+							
+
+							
+							{
+								buttonName: "Run",
+								input: "LeftShift",
+							}
+
+							{
+								buttonName: "Crouch",
+								input: "LeftControl",
+							}
+					
+
+							{
+								buttonName: "Look X",
+								axisTarget: "Mouse X",
+							}
+							{
+								buttonName: "Look Y",
+								axisTarget: "Mouse Y",
+							}
+
+							{
+								buttonName: "Jump",
+								input: "Space",
+							}
+							
+
+							{
+								buttonName: "Menu",
+								input: "Return",
+							}
+
+
+
+
+							{
+								buttonName: "Menu Confirm",
+								input: "Return",
+							}
+
+							{
+								buttonName: "Menu Cancel",
+								input: "Escape",
+							}
+
+					],
+
+			}
+
+	 ], 
+}
