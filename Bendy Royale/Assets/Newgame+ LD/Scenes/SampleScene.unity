@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641234, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2234,8 +2234,8 @@ MonoBehaviour:
   axes: {x: 0, y: 0}
   jump: 0
   eventInteract: 0
-  walkSpeed: 4
-  runSpeed: 6
+  walkSpeed: 6
+  runSpeed: 8
   smoothAxes: {x: 0, y: 0}
   m_animator: {fileID: 0}
   lookAxes: {x: 0, y: 0}
