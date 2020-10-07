@@ -14,7 +14,10 @@ public class ActorBase : MonoBehaviour
 	public bool jump;
 	public bool eventInteract;
 
-	public float verticalSpeed;
+	public float walkSpeed = 4;
+	public float runSpeed = 6;
+
+	float verticalSpeed;
 
 
     // Start is called before the first frame update
@@ -41,7 +44,7 @@ public class ActorBase : MonoBehaviour
 
 		chara.Move(new Vector3 (smoothAxes.x, 0, smoothAxes.y)
 
-			* (run ? 4 : 2)*Time.deltaTime);
+			* (run ? runSpeed : walkSpeed)*Time.deltaTime);
 
 		chara.Move(new Vector3 (0, verticalSpeed, 0)*Time.deltaTime);
     }
